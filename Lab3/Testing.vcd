@@ -1,0 +1,74 @@
+$date
+	Mon Oct 28 16:27:40 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Testing $end
+$var wire 1 ! q $end
+$var reg 1 " clk $end
+$var reg 1 # d $end
+$var reg 1 $ rst $end
+$scope module dff1 $end
+$var wire 1 " clear_ $end
+$var wire 1 $ clock $end
+$var wire 1 # d $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1$
+0#
+0"
+0!
+$end
+#4
+0$
+1#
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+0"
+#25
+1"
+#30
+0"
+#35
+1"
+#40
+0"
+#45
+1"
+#50
+0"
+#54
+1$
+#55
+1"
+#60
+0"
+#65
+1"
+#70
+0"
+#74
+0$
+0#
+#75
+1"
+#80
+0"
+#85
+1"
+#90
+0"
+#94
