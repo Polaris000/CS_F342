@@ -8,11 +8,10 @@ module eightbitadder(cout, s, a, b);
 	
 	
 	onebitadder o1(s[0], cin, a[0], b[0], 1'b0);
-	//assign x = cin;
+
 	onebitadder o2(s[1], cin, a[1], b[1], cin);
-		//assign x = cin;
+
 	onebitadder o3(s[2], cin, a[2], b[2], x);
-		//assign x = cin;
 	onebitadder o4(s[3], cin, a[3], b[3], x);	assign x = cin;
 	onebitadder o5(s[4], cin, a[4], b[4], x);	assign x = cin;
 	onebitadder o6(s[5], cin, a[5], b[5], x);	assign x = cin;

@@ -4,7 +4,7 @@ module d_ff(q, d, clock, clear_);
 	output q;
 	reg q;
 	
-	always @ (negedge clock)
+	always @ (posedge clock)
 	begin
 		if (!clear_)
 			q <= 1'b0;
