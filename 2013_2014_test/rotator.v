@@ -7,8 +7,8 @@ module shiftright(clk, enable, numout, numrotated);
 	always @(posedge clk) begin
 		if (enable) begin
 			// reset
-			numrotated <= numout / 2;
-			
+			numrotated <= {numout[0], numout[3:1]};
+
 		end
 		else
 			numrotated <= numrotated;
